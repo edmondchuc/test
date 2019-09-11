@@ -10,6 +10,7 @@ platform:
 steps:
 - name: pyLODE
   commands:
+  - ls
   - git clone https://github.com/RDFLib/pyLODE.git
   - cd pyLODE
   - apt install python3-pip -y
