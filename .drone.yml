@@ -15,6 +15,7 @@ steps:
   - apt install python3-pip -y
   - pip3 install -r requirements.txt
   - cd src/pylode/bin
+  - pwd
   - ./pylode -i ../../../../test/plot.ttl --css true
 
 ...
