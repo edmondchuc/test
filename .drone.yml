@@ -20,6 +20,7 @@ steps:
   - pwd
   - ./pylode -i ../../../../plot.ttl --css true
   - cd ..
+  - mkdir /var/www/def/plot
   - cp output_files/* /var/www/def/plot
 
 ...
