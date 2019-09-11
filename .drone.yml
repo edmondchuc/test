@@ -8,9 +8,10 @@ platform:
   arch: amd64
 
 steps:
-- name: greeting
+- name: pyLODE
   commands:
-  - echo hello world
-  - python3 asdf
+  - git clone https://github.com/RDFLib/pyLODE.git
+  - cd pyLODE/src/pylode/bin
+  - ./pylode -i ../../../../test/plot.ttl --css true
 
 ...
