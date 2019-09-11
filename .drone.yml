@@ -19,5 +19,7 @@ steps:
   - cd src/pylode/bin
   - pwd
   - ./pylode -i ../../../../plot.ttl --css true
+  - cd ..
+  - cp output_files/* /var/www/def/plot
 
 ...
