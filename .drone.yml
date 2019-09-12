@@ -12,6 +12,7 @@ steps:
   commands:
   - ls
   - whoami
+  - cp plot.ttl /var/www/def/plot
   - git clone https://github.com/RDFLib/pyLODE.git
   - cd pyLODE
   - apt install python3-pip -y
