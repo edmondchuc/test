@@ -12,6 +12,7 @@ steps:
   commands:
   - ls
   - whoami
+  - mkdir -p /var/www/def/plot
   - cp plot.ttl /var/www/def/plot
   - git clone https://github.com/RDFLib/pyLODE.git
   - cd pyLODE
@@ -21,7 +22,6 @@ steps:
   - pwd
   - ./pylode -i ../../../../plot.ttl --css true
   - cd ..
-  - mkdir -p /var/www/def/plot
   - cp output_files/* /var/www/def/plot
   - cd /var/www/def/plot
   - mv doc.html index.html
