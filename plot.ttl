@@ -40,7 +40,7 @@ plot:
   rdfs:comment """This vocabulary provides a set of classes to support capture of plot- and site-based ecological survey data. It is primary related to vegetation surveys, following the methdologies outlined in the Australian Soil and Land Survey Field Handbook. 
 
 PLOT is technically an extension to the W3C SSN/SOSA vocabulary, and also uses elements from the SSN-EXT ontology.""" ;
-  rdfs:label "The PlOt Ontology" ;
+  rdfs:label "The PLOTT Ontology" ;
   rdfs:seeAlso <https://www.publish.csiro.au/book/5230/> ;
   rdfs:seeAlso <https://www.w3.org/TR/vocab-ssn-ext/> ;
   rdfs:seeAlso <https://www.w3.org/ns/ssn/> ;
